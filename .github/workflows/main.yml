@@ -4,7 +4,7 @@ jobs:
 
   build:
     name: Build
-    runs-on: ubuntu-latest
+    runs-on: Linux/UNIX
     steps:
     - name: Run playbook on ansible server
       uses: appleboy/ssh-action@v1.0.3
