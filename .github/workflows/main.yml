@@ -6,7 +6,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-    - name: Run playbook on ansible server
+    - name: executing remote ssh commands using password
       uses: appleboy/ssh-action@v1.0.3
       with:
         host: ${{ secrets.HOST_IP }}
